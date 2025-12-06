@@ -1,10 +1,26 @@
 INSERT INTO universities (id, website_url, short_name, name, address, email)
 VALUES
-(1, 'uni1.edu', 'UNI1', 'University One', 'City A', 'info@uni1.edu'),
-(2, 'uni2.edu', 'UNI2', 'University Two', 'City B', 'info@uni2.edu'),
-(3, 'uni3.edu', 'UNI3', 'University Three', 'City C', 'info@uni3.edu'),
-(4, 'uni4.edu', 'UNI4', 'University Four', 'City D', 'info@uni4.edu'),
-(5, 'uni5.edu', 'UNI5', 'University Five', 'City E', 'info@uni5.edu');
+(1, 'https://web.mit.edu', 'MIT',
+ 'Massachusetts Institute of Technology',
+ '77 Massachusetts Ave, Cambridge, MA 02139, USA',
+ 'admissions@mit.edu'),
+(2, 'https://www.stanford.edu', 'Stanford',
+ 'Stanford University',
+ '450 Serra Mall, Stanford, CA 94305, USA',
+ 'admission@stanford.edu'),
+(3, 'https://www.ox.ac.uk', 'Oxford',
+ 'University of Oxford',
+ 'Wellington Square, Oxford OX1 2JD, United Kingdom',
+ 'info@ox.ac.uk'),
+(4, 'https://www.harvard.edu', 'Harvard',
+ 'Harvard University',
+ 'Massachusetts Hall, Cambridge, MA 02138, USA',
+ 'admissions@harvard.edu'),
+(5, 'https://www.cam.ac.uk', 'Cambridge',
+ 'University of Cambridge',
+ 'The Old Schools, Trinity Ln, Cambridge CB2 1TN, United Kingdom',
+ 'communications@admin.cam.ac.uk');
+
 
 INSERT INTO departments (id, name, university_id, building, phone, department_code)
 VALUES

@@ -58,4 +58,8 @@
 - [] Retrieve universities that have no programs at all (LEFT JOIN + IS NULL).
 - [] Count departments per country (GROUP BY + HAVING).
 
-
+### Update Data
+- [] Update the name of a department.
+- [] Change the university of a specific department (FK update).
+- [] Mark all programs of a university as archived using a boolean column.
+- [] Update multiple programs to new names using IN().
