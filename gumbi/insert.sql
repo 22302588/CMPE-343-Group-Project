@@ -14,7 +14,9 @@ VALUES
 (1, 'Group Alpha', 1, 1, 1),
 (2, 'Group Beta', 2, 1, 2);
 
-INSERT INTO student_groups (id, student_id, group_id)
+INSERT INTO student_groups (student_id, group_id)
 VALUES
-(1, 1, 1),
-(2, 2, 2);
+(1, 1),
+(2, 2),
+(3, 1);
+
