@@ -18,8 +18,8 @@
 
 #### Add Constraints
 
-- [ ] Primary keys on all tables
-- [ ] Foreign key:
+- [X] Primary keys on all tables
+- [X] Foreign key:
   - Student → Program
   - StudentGroup → Student
   - Group → Department or Program (depending on your model)
