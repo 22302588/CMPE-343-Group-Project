@@ -1,2 +1,17 @@
-# CMPE-343-Group-Project
-To pass the CPME343 project
+# THE TABLES (15):
+
+- University
+- Department
+- Program
+- Student
+- StudentGroup
+- Instructor
+- Group
+- Transcript
+- CourseResult
+- TestResult
+- Test
+- Course
+- Module
+- Lesson
+- Prerequisite

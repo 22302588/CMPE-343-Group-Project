@@ -14,3 +14,4 @@ Values
 (1 , 'ciu.edu.tr' , 'ciu', 'Cyprus International University', 'Haspolat KKTC' ,'ciu@edu.tr');
 
 SELECT * from university;
+
