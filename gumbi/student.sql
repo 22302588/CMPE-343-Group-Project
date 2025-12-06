@@ -6,4 +6,4 @@ CREATE Table students(
     status VARCHAR(20),
     program_id INT,
     FOREIGN KEY (program_id) REFERENCES program(id)
-)
+);
