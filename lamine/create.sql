@@ -37,5 +37,5 @@ CREATE TABLE IF NOT EXISTS prerequisites (
     dependon_id INT REFERENCES courses(id) ON DELETE CASCADE NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW(),
-    CONSTRAINT prerequisite_pk PRIMARY KEY (course_id, dependon_id) 
+    CONSTRAINT pk_prerequisite PRIMARY KEY (course_id, dependon_id) 
 );
