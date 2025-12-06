@@ -38,6 +38,8 @@
 
 #### Display Data
 
-- [ ] SELECT FROM University
-- [ ] SELECT FROM Department
-- [ ] SELECT FROM Program
+- [X] SELECT FROM University
+- [X] SELECT FROM Department
+- [X] SELECT FROM Program
+
+
