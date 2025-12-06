@@ -43,7 +43,7 @@
 - [X] SELECT FROM Program
 - [X] List all departments with their university name, ordered alphabetically by university then department.
 - [] Find all programs that belong to universities located in a specific country (use a WHERE + JOIN).
-- [] Show the number of programs per department (GROUP BY).
+- [] Show the number of programs per department (GROUP BY)./* with join*/
 - [] List universities that have more than 5 departments (HAVING clause).
 - [] Find all programs that have no students enrolled (LEFT JOIN to Student).
 - [] Display a nested result: each university → departments → count of programs under each.
@@ -56,7 +56,7 @@
 - [] List programs created in the last 90 days (DATE filtering).
 - [] Show all departments with their full hierarchical name: CONCAT(university.name, ' > ', department.name).
 - [] Retrieve universities that have no programs at all (LEFT JOIN + IS NULL).
-- [] Count departments per country (GROUP BY + HAVING).
+
 
 ### Update Data
 - [] Update the name of a department.
