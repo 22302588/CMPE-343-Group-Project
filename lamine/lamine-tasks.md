@@ -39,10 +39,10 @@
 
 #### Insert Data
 
-- [ ] Insert placeholder courses
-- [ ] Insert placeholder modules linked to courses
-- [ ] Insert placeholder lessons linked to modules
-- [ ] Insert placeholder prerequisites
+- [x] Insert placeholder courses
+- [x] Insert placeholder modules linked to courses
+- [x] Insert placeholder lessons linked to modules
+- [x] Insert placeholder prerequisites
 
 #### Display Data
 
