@@ -41,7 +41,7 @@
 - [X] SELECT FROM University
 - [X] SELECT FROM Department
 - [X] SELECT FROM Program
-- [] List all departments with their university name, ordered alphabetically by university then department.
+- [X] List all departments with their university name, ordered alphabetically by university then department.
 - [] Find all programs that belong to universities located in a specific country (use a WHERE + JOIN).
 - [] Show the number of programs per department (GROUP BY).
 - [] List universities that have more than 5 departments (HAVING clause).

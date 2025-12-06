@@ -10,3 +10,4 @@ FROM departments
 JOIN universities ON universities.id = departments.university_id
 ORDER BY universities.name ASC,
  departments.name ASC;
+ 
