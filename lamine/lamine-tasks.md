@@ -11,31 +11,31 @@
 
 #### Create Tables
 
-- [ ] Create **Course**
-- [ ] Create **Module**
-- [ ] Create **Lesson**
-- [ ] Create **Prerequisite**
+- [x] Create **Course**
+- [x] Create **Module**
+- [x] Create **Lesson**
+- [x] Create **Prerequisite**
 
 #### Add Constraints
 
-- [ ] Primary keys for all tables
-- [ ] Foreign keys:
+- [x] Primary keys for all tables
+- [x] Foreign keys:
 
   - Module → Course
   - Lesson → Module
   - Prerequisite → Course (courseId + prerequisiteCourseId)
 
-- [ ] UNIQUE constraints
+- [x] UNIQUE constraints
 
   - No duplicate prerequisite pair
   - No duplicate lesson titles within the same module
   - No duplicate module names within the same course
 
-- [ ] CHECK constraints
+- [x] CHECK constraints
 
   - Lesson order > 0
 
-- [ ] NOT NULL constraints for titles, order, etc.
+- [x] NOT NULL constraints for titles, order, etc.
 
 #### Insert Data
 
