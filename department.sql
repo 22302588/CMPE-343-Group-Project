@@ -1,9 +1,9 @@
 Create Table department( 
- department_id int Primary KEY, 
- name varchar(50) not null,
- building varchar(50),
- phone int, 
- department_code varchar(10) not NULL);
+department_id int Primary KEY, 
+name varchar(50) not null,
+building varchar(50),
+phone int, 
+department_code varchar(10) not NULL);
 
 Insert into department(department_id, name, building, phone, department_code) 
 Values 
