@@ -32,9 +32,9 @@
 
 #### Insert Data
 
-- [ ] Insert placeholder universities
-- [ ] Insert placeholder departments (linked to university)
-- [ ] Insert placeholder programs (linked to department)
+- [X] Insert placeholder universities
+- [X] Insert placeholder departments (linked to university)
+- [X] Insert placeholder programs (linked to department)
 
 #### Display Data
 
