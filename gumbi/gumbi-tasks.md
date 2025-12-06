@@ -27,7 +27,7 @@
 - [ ] Add unique constraints where needed
   - (email) unique on Student
   - (email) unique on Instructor
-- [ ] Add not-null constraints for essential fields (name, birthdate, etc.)
+- [X] Add not-null constraints for essential fields (name, birthdate, etc.)
 
 #### Insert Data
 
