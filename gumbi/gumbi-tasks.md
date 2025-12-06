@@ -11,10 +11,10 @@
 
 #### Create Tables
 
-- [ ] Create **Student**
-- [ ] Create **StudentGroup**
-- [ ] Create **Instructor**
-- [ ] Create **Group**
+- [X] Create **Student**
+- [X] Create **StudentGroup**
+- [X] Create **Instructor**
+- [X] Create **Group**
 
 #### Add Constraints
 
