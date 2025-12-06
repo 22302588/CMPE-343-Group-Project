@@ -10,25 +10,25 @@
 
 #### Create Tables
 
-- [ ] Create **University**
-- [ ] Create **Department**
-- [ ] Create **Program**
+- [X] Create **University**
+- [X] Create **Department**
+- [X] Create **Program**
 
 #### Add Constraints
 
-- [ ] Primary keys on each table
-- [ ] Foreign key:
+- [X] Primary keys on each table
+- [X] Foreign key:
 
   - Department → University
   - Program → Department
 
-- [ ] UNIQUE constraints
+- [X] UNIQUE constraints
 
   - University name
   - Department name within same university
   - Program name within same department
 
-- [ ] NOT NULL constraints for identifiers and names
+- [X] NOT NULL constraints for identifiers and names
 
 #### Insert Data
 
