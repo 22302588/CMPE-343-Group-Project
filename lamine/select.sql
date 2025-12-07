@@ -11,5 +11,13 @@ GROUP BY
     courses.title;
 
 
-SELECT *
-FROM lessons
+SELECT courses.title, lessons.title, lessons.lesson_order
+FROM courses
+JOIN modules ON courses.id = modules.course_id
+JOIN lessons ON modules.id = lessons.module_id
+WHERE courses.id = 1
+ORDER BY lessons.lesson_order;
+
+SELECT courses.title, prerequisites.dependon_id
+FROM courses
+LEFT JOIN prerequisites ON prerequisites.course_id = courses.id;
