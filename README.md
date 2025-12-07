@@ -15,3 +15,8 @@
 - Module
 - Lesson
 - Prerequisite
+
+# GENERAL TASKS:
+
+- [] Remove name from Transcript ERD
+- [] Remove the merged arrows from the ERD

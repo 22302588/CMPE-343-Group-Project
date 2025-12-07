@@ -47,25 +47,13 @@
 #### Display Data
 
 - [] SELECT on all four tables
-
 - [x] List each course with its total modules and total lessons (multiple JOINs + GROUP BY).
 - [x] Retrieve all lessons in order for a given course (JOIN + ORDER BY).
 - [x] Find all courses that have no prerequisites (LEFT JOIN + IS NULL).
 - [x] List courses that depend on another specific course (self-JOIN on prerequisites).
-- [] Show prerequisite chains: course → required course (self reference).
 - [x] Find modules that contain more than 5 lessons (HAVING).
-- [] Display courses with the number of prerequisite levels (recursive CTE).
-- [] Get the longest course based on total lesson count (ORDER BY DESC LIMIT 1).
-
-- [] List every course with number of modules and number of lessons (JOIN + COUNT).
-- [] Retrieve lessons for a course ordered by lesson order (ORDER BY).
-- [] Find courses that have no prerequisites (LEFT JOIN + IS NULL).
-- [] Show prerequisite chains (self join on prerequisite).
-- [] Count lessons per module and filter modules with more than 5 lessons (HAVING).
-- [] Show full path of lesson: Course → Module → Lesson using CONCAT.
-- [] Find the longest course by total lesson count (ORDER BY DESC LIMIT 1).
-- [] GROUP BY course difficulty or category (if included).
-
+- [x] Get the longest course based on total lesson count (ORDER BY DESC LIMIT 1).
+- [x] Show full path of lesson: Course → Module → Lesson using CONCAT.
 - [] Change a module’s name.
 - [] Reorder lessons (update lesson number).
 - [] Update the prerequisite of a course.
