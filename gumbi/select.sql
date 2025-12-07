@@ -43,5 +43,12 @@ JOIN students s ON s.id = sg.student_id;
 
 SELECT* FROM students WHERE email NOT LIKE ('%university.edu%');
 
+SELECT s.id AS student_id,s.f_name,s.l_name,sg.group_id,d.department_code,p.name
+FROM student_groups sg
+JOIN students s ON sg.student_id = s.id
+JOIN groups g ON sg.group_id = g.id
+JOIN instructors i ON g.instructor_id = i.id
+JOIN departments d ON i.department_id = d.id
+JOIN programs p ON s.program_id = p.id;
 
 

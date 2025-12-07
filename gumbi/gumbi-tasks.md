@@ -46,9 +46,9 @@
 - [X] Find students who are not in any StudentGroup (anti-join).
 - [X] Display each instructor with the number of groups they manage (aggregation).
 - [X] List students grouped by age ranges: <20, 20–25, 25+ (CASE WHEN).
-- [] Retrieve all students whose email domain is not university.edu (LIKE + NOT).
+- [X] Retrieve all students whose email domain is not university.edu (LIKE + NOT).
 
-- [] List all students with their group, department, and program.
+- [X] List all students with their group, department, and program.
 - [] Count how many students each group has (GROUP BY + COUNT).
 - [] List instructors with the number of groups they manage (LEFT JOIN).
 - [] Get students whose names contain at least two words (pattern matching).
