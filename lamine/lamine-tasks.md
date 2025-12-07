@@ -51,9 +51,9 @@
 - [x] List each course with its total modules and total lessons (multiple JOINs + GROUP BY).
 - [x] Retrieve all lessons in order for a given course (JOIN + ORDER BY).
 - [x] Find all courses that have no prerequisites (LEFT JOIN + IS NULL).
-- [] List courses that depend on another specific course (self-JOIN on prerequisites).
+- [x] List courses that depend on another specific course (self-JOIN on prerequisites).
 - [] Show prerequisite chains: course → required course (self reference).
-- [] Find modules that contain more than 5 lessons (HAVING).
+- [x] Find modules that contain more than 5 lessons (HAVING).
 - [] Display courses with the number of prerequisite levels (recursive CTE).
 - [] Get the longest course based on total lesson count (ORDER BY DESC LIMIT 1).
 

@@ -25,3 +25,17 @@ FROM courses
 LEFT JOIN prerequisites 
 ON prerequisites.course_id = courses.id
 WHERE prerequisites.dependon_id IS NULL;
+
+-- List courses that depend on another specific course
+SELECT courses.title course, c2.title dependents FROM courses
+JOIN prerequisites 
+ON prerequisites.dependon_id = courses.id
+JOIN courses c2 ON c2.id = prerequisites.course_id
+WHERE courses.id = 1
+
+-- Find modules that contain more than 5 lessons
+SELECT modules.title modules, COUNT(DISTINCT lessons.title) total_lessons 
+FROM modules
+JOIN lessons ON lessons.module_id = modules.id
+GROUP BY modules.id
+HAVING (COUNT(DISTINCT lessons.title) > 2);

@@ -1,5 +1,5 @@
-INSERT INTO 
-    courses (id, department_id, course_code, title, credits, overview, course_level)
+INSERT INTO courses 
+    (id, department_id, course_code, title, credits, overview, course_level)
 VALUES
     (1, 1, 'CS101', 'Intro to Programming', 3, 'Basics of coding and logic.', 100),
     (2, 1, 'CS201', 'Data Structures', 3, 'Study of common data structures.', 200),
