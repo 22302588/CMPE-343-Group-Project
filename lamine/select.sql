@@ -1,3 +1,4 @@
+-- List each course with its total modules and total lessons
 SELECT
     courses.id,
     courses.title, 
@@ -10,14 +11,17 @@ GROUP BY
     courses.id,
     courses.title;
 
-
+-- Retrieve all lessons in order for a given course
 SELECT courses.title, lessons.title, lessons.lesson_order
 FROM courses
 JOIN modules ON courses.id = modules.course_id
 JOIN lessons ON modules.id = lessons.module_id
-WHERE courses.id = 1
+WHERE courses.id = 1 
 ORDER BY lessons.lesson_order;
 
+-- Find all courses that have no prerequisites
 SELECT courses.title, prerequisites.dependon_id
 FROM courses
-LEFT JOIN prerequisites ON prerequisites.course_id = courses.id;
+LEFT JOIN prerequisites 
+ON prerequisites.course_id = courses.id
+WHERE prerequisites.dependon_id IS NULL;
