@@ -41,5 +41,7 @@ SELECT
 FROM student_groups sg
 JOIN students s ON s.id = sg.student_id;
 
+SELECT* FROM students WHERE email NOT LIKE ('%university.edu%');
+
 
 

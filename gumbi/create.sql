@@ -34,3 +34,6 @@ CREATE TABLE IF NOT EXISTS student_groups(
     group_id INT REFERENCES groups(id),
     CONSTRAINT pk_student_group PRIMARY KEY (student_id, group_id)
 );
+
+ALTER TABLE students
+ADD email VARCHAR(255) UNIQUE;
