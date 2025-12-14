@@ -60,5 +60,5 @@
 #### Update tasks
 - [] Update student emails using string operations (replace domain).
 - [] Move a student to a new group.
-- [] Update an instructor’s assigned department.
+- [X] Update an instructor’s assigned department.
 - [X] Increment a “warnings” column for all students failing attendance.
