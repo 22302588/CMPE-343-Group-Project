@@ -61,4 +61,4 @@
 - [] Update student emails using string operations (replace domain).
 - [] Move a student to a new group.
 - [] Update an instructor’s assigned department.
-- [] Increment a “warnings” column for all students failing attendance.
+- [X] Increment a “warnings” column for all students failing attendance.
