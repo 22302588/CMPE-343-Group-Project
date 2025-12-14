@@ -18,10 +18,10 @@ JOIN universities
 WHERE address LIKE "%USA%"
 
 /*Dispaly 6*/
-SELECT program.name , department.name
-From  programs
+SELECT departments.name, departments.id, COUNT(programs.id) AS programs_department
+From  departments
 JOIN programs ON program.name = departments.program_id
-GROUP BY programs_department
+GROUP BY departments.name, departments.id
 
 
 /*Display 7*/ 
@@ -39,6 +39,25 @@ WHERE "students"= NULL
 
 
 /*Display 10*/
+SELECT departments.id , departments.name, COUNT(programs.id) AS program_count
+FROM departments 
+LEFT JOIN programs ON departments.id = programs.department_id
+GROUP BY departments.id, departments.name
+ORDER BY program_count DESC
+LIMIT 1;
+
+/*Display 11*/
+SELECT *
+FROM departments 
+WHERE created_at >= '2024-01-01' AND created_at < '2024-02-01';
+
+/*Display 12*/
+SELECT *
+FROM departments 
+
+
+/*Display 13*/
 SELECT 
-FROM departrments
+FROM universities
+
 

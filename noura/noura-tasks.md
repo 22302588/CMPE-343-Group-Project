@@ -43,7 +43,7 @@
 - [X] SELECT FROM Program
 - [X] List all departments with their university name, ordered alphabetically by university then department.
 - [] Find all programs that belong to universities located in a specific country (use a WHERE + JOIN).
-- [] Show the number of programs per department (GROUP BY)./* with join*/
+- [] Show the number of programs per department (GROUP BY).
 - [] List universities that have more than 5 departments (HAVING clause).
 - [] Find all programs that have no students enrolled (LEFT JOIN to Student).
 - [] Display a nested result: each university → departments → count of programs under each.
@@ -59,7 +59,10 @@
 
 
 ### Update Data
-- [] Update the name of a department.
-- [] Change the university of a specific department (FK update).
-- [] Mark all programs of a university as archived using a boolean column.
-- [] Update multiple programs to new names using IN().
+- [X] Update the name of a department.
+- [] Change the university of a specific department (FK update)./* it does not make any sense*/
+- [X] Mark all programs of a university as archived using a boolean column.
+- [] Update multiple programs to new names using IN(). /* i can't do it cause i have diff program code*/
+- []
+
+
