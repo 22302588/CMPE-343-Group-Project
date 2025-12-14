@@ -1,4 +1,5 @@
-SELECT f_name,l_name, name FROM students,programs WHERE students.program_id=programs.id;
+SELECT f_name,l_name, name 
+FROM students,programs WHERE students.program_id=programs.id;
 
 SELECT i.name
 FROM instructors i
