@@ -12,23 +12,28 @@ ORDER BY universities.name ASC,
  departments.name ASC;
 
 /*Display 5*/
-SELECT program.id 
-FROM programs 
+SELECT programs.id, programs.name
+FROM programs
+JOIN departments
+  ON programs.department_id = departments.id
 JOIN universities
-WHERE address LIKE "%USA%"
+  ON departments.university_id = universities.id
+WHERE universities.address LIKE '%United%';
+
 
 /*Dispaly 6*/
 SELECT departments.name, departments.id, COUNT(programs.id) AS programs_department
 From  departments
-JOIN programs ON program.name = departments.program_id
+JOIN programs ON programs.department_id = departments.id
 GROUP BY departments.name, departments.id
 
 
 /*Display 7*/ 
 SELECT universities.id 
 FROM universities 
-JOIN universities ON universities.id= departments.university_id 
-where "department"=5
+JOIN departments ON universities.id= departments.university_id 
+GROUP BY universities.id
+HAVING count(departments.id)=2
 
 /*Display 8*/
 SELECT programs.id 

@@ -42,12 +42,12 @@
 - [X] SELECT FROM Department
 - [X] SELECT FROM Program
 - [X] List all departments with their university name, ordered alphabetically by university then department.
-- [] Find all programs that belong to universities located in a specific country (use a WHERE + JOIN).
-- [] Show the number of programs per department (GROUP BY).
-- [] List universities that have more than 5 departments (HAVING clause).
+- [X] Find all programs that belong to universities located in a specific country (use a WHERE + JOIN).
+- [X] Show the number of programs per department (GROUP BY).
+- [X] List universities that have more than 2 departments (HAVING clause).
 - [] Find all programs that have no students enrolled (LEFT JOIN to Student).
-- [] Display a nested result: each university → departments → count of programs under each.
-- [] Show the department that has the highest number of programs (LIMIT 1). /*10*/
+- [] Display a nested result: each university → departments → count of programs under each./* i did not do it*/
+- [X] Show the department that has the highest number of programs (LIMIT 1). /*10*/
 - [] Select all departments created in the last 30 days (DATE comparison).
 - [] List all programs with their department + university (3-table JOIN).
 - [] Count how many programs each university has (GROUP BY + COUNT).
