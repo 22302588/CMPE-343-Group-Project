@@ -37,3 +37,9 @@ CREATE TABLE IF NOT EXISTS student_groups(
 
 ALTER TABLE students
 ADD email VARCHAR(255) UNIQUE;
+
+ALTER TABLE student_groups
+ADD attendance INT DEFAULT 0;
+
+ALTER TABLE students
+ADD warnings INT DEFAULT 0;
