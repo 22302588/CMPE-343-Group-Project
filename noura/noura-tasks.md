@@ -47,7 +47,7 @@
 - [] List universities that have more than 5 departments (HAVING clause).
 - [] Find all programs that have no students enrolled (LEFT JOIN to Student).
 - [] Display a nested result: each university → departments → count of programs under each.
-- [] Show the department that has the highest number of programs (LIMIT 1).
+- [] Show the department that has the highest number of programs (LIMIT 1). /*10*/
 - [] Select all departments created in the last 30 days (DATE comparison).
 - [] List all programs with their department + university (3-table JOIN).
 - [] Count how many programs each university has (GROUP BY + COUNT).
@@ -60,9 +60,7 @@
 
 ### Update Data
 - [X] Update the name of a department.
-- [] Change the university of a specific department (FK update)./* it does not make any sense*/
 - [X] Mark all programs of a university as archived using a boolean column.
-- [] Update multiple programs to new names using IN(). /* i can't do it cause i have diff program code*/
-- []
+- []Add alter table to the University table to add the Email column.
 
 
