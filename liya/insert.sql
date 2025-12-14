@@ -12,8 +12,8 @@ VALUES
 INSERT INTO tests(id, type, percentage)
 VALUES
 (011,  "Mid-term", 97.01),
-(022, "Final", 57.7),
-(033, "Quiz", 69.9);
+(022, "Final", 57.70),
+(033, "Quiz", 69.90);
 INSERT INTO test_results(id, course_result_id, test_result_id, grade)
 VALUES
 (1, 110, 011, 40.00 ),
