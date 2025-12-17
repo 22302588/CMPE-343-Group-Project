@@ -32,5 +32,4 @@ CREATE TABLE IF NOT EXISTS programs (
     update_at TIMESTAMP DEFAULT NOW(),
     CONSTRAINT unique_department_program UNIQUE(name, department_id)
 );
-
-
+ALTER TABLE programs ADD COLUMN is_active BOOLEAN DEFAULT TRUE;

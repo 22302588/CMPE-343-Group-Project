@@ -34,6 +34,8 @@ VALUES
 (8, 'Pharmacy', 4, 'E2', '+4444442', 'PHAR'),
 (9, 'Physics', 5, 'F1', '+5555551', 'PHYS'),
 (10, 'Chemistry', 5, 'F2', '+5555552', 'CHEM');
+UPDATE departments SET name = 'Business' WHERE id = 3;
+
 
 INSERT INTO programs (id, department_id, program_code, name, degree, duration_year)
 VALUES
@@ -55,3 +57,4 @@ VALUES
 (16, 9, 'PHYS901', 'Quantum Physics', 'Master', 2),
 (17, 10, 'CHEM1001', 'Organic Chemistry', 'Bachelor', 4);
 
+UPDATE programs SET name = 'Introduction to software engineering' WHERE id = 1;

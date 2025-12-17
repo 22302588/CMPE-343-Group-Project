@@ -1,7 +1,5 @@
 SELECT * FROM universities;
-
 SELECT * FROM departments;
-
 SELECT * FROM programs;
 
 /*Display 4*/
@@ -40,7 +38,6 @@ SELECT programs.id
 FROM programs
 LEFT JOIN programs ON students.id = programs.student_id 
 WHERE "students"= NULL
-/*Display 9*/
 
 
 /*Display 10*/
@@ -57,16 +54,3 @@ FROM programs
 JOIN departments ON programs.department_id = departments.id
 JOIN universities ON departments.university_id = universities.id
 WHERE programs.created_at >= NOW() - INTERVAL '90 days';
-
-
-
-/*Display 12*/
-SELECT *
-FROM departments 
-
-
-/*Display 13*/
-SELECT 
-FROM universities
-
-
