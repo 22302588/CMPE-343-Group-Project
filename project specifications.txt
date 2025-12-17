@@ -1,0 +1,77 @@
+CYPRUS INTERNATIONAL
+UNIVERSITY
+CMPE343
+Database Management Systems and Programming I
+Instructor: Prof Dr Melike Şah Direkoğlu and Assis Prof Dr Yasemin Bay
+Project (15%)
+Report Due Date: 21th of December 2025
+Project Presentations: Between 22-30 December 2025
+In this project, you are asked to design and implement a database that will store
+all the necessary information for a specific domain. You can form groups up to 4
+students. Each group will be assigned to a project domain by the course
+coordinator. Please add your group member names to the provided
+Google spreadsheet on the Moodle Webpage.
+After designing the database, you will insert, delete and update data.
+Your database design should contain at least 6 tables. You are free to design the
+database anyway you like, but the following requirements should be considered:
+-
+
+Design foreign keys to other tables, in order to, visualize and relate
+information from different tables.
+
+-
+
+Write queries to insert, delete or update data from tables.
+
+-
+
+Write complex SQL queries that contain joins, function (character, date,
+numeric and advanced) to illustrate complex querying of the database.
+
+The project will have 3 phases:
+DESIGN: The database should be designed and should be demonstrated with ER
+Diagrams and DDL statements. Foreign keys, primary keys, constraints, default
+values should also be indicated with relational model.
+Use any cloud based platform that support database such as Railway, Render,
+Supabase, Firebase, AWS or others to implement your design. Create one
+project account in your preferred online platform and invite other
+project members as collaborator.
+
+POPULATE DATA: Using DML statements to insert/update/delete data
+to/from your database. Show the inserted records into your tabels.
+QUERIES: Write at least 15 SQL queries retrieving, displaying and showing
+statistical information to help management (use join operations, subqueries,
+group by, order by, sum, average, count, string functions, data function, and
+other functions, etc.)
+GITHUB: All information about the project including ERD diagram, DDL,
+DML and SQL queries must be published in a GitHub page. Create one
+project repository in GitHuB and invite other project members as
+collaborator. So that everyone has an access to it.
+Optional: Optionally you can create a simple user interface that interacts
+with your created database to insert, update, delete or view information
+from table record.
+At the end of this project, you will submit a report that should contain the
+following structure as well as present your project in the class
+Report Structure
+Project members and their contributions
+1. Introduction
+• An introduction giving brief information and assumptions about the system
+2. Database
+• ER Diagram,
+• Data Definition Language Details (DDL), including all necessary constraints,
+• Data Manipulation Language (DML)
+
+3. Queries
+•
+
+Show your queries and screen shot of the results for each query. Make sure the
+screen shot is readable.
+
+4. User Interface (optional)
+•
+
+Screen shots that demonstrates how users interact with the database.
+
+❖ Individual or group work (max 4 people) is accepted.
+
+

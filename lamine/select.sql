@@ -31,7 +31,6 @@ LEFT JOIN prerequisites
 ON prerequisites.course_id = courses.id
 WHERE prerequisites.dependon_id IS NULL;
 
--- List courses that depend on another specific course
 -- List courses that depend on a specific course (course ID = 1)
 SELECT courses.title course, c2.title dependents FROM courses
 JOIN prerequisites 
@@ -75,7 +74,6 @@ FROM courses c
 JOIN course_results cr ON c.id = cr.course_id
 GROUP BY c.id, c.title
 ORDER BY highest_grade DESC;
-
 
 -- SEARCH AND REPLACE (using REPLACE function)
 SELECT 

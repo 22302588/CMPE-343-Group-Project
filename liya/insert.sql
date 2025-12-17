@@ -401,4 +401,4 @@ INSERT INTO test_results(id, course_result_id, test_id, grade) VALUES
 -- Course Result 70 (Student 20, Course 31) - All test types
 (208, 70, 1, 87.9),  -- Midterm
 (209, 70, 2, 91.4),  -- Final
-(210, 70, 3, 89.7),  -- Quiz; 
+(210, 70, 3, 89.7);  -- Quiz; 
