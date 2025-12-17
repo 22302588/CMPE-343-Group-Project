@@ -51,5 +51,3 @@ JOIN groups g ON sg.group_id = g.id
 JOIN instructors i ON g.instructor_id = i.id
 JOIN departments d ON i.department_id = d.id
 JOIN programs p ON s.program_id = p.id;
-
-
