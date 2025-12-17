@@ -51,10 +51,14 @@ GROUP BY departments.id, departments.name
 ORDER BY program_count DESC
 LIMIT 1;
 
-/*Display 11*/
-SELECT *
-FROM departments 
-WHERE created_at >= '2024-01-01' AND created_at < '2024-02-01';
+/*List programs created in the last 90 days ( we join uni with departments) */
+SELECT programs.id ,programs.name, universities.name , programs.created_at
+FROM programs
+JOIN departments ON programs.department_id = departments.id
+JOIN universities ON departments.university_id = universities.id
+WHERE programs.created_at >= NOW() - INTERVAL '90 days';
+
+
 
 /*Display 12*/
 SELECT *

@@ -10,12 +10,23 @@ UPDATE universities
 ALTER TABLE programs
 ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
 
+SELECT * FROM programs
+WHERE id IN (10, 14, 17);
 UPDATE programs
 SET is_active = FALSE
 WHERE id IN (10, 14, 17);
 
+
+
 /* Update 4*/
-UPDATE programsS
+UPDATE programs
+SET name = 'IAM THE GOAT'
+WHERE id = 1;
+SELECT * FROM programs
+WHERE id=1;
+UPDATE programs
 SET name = 'Introduction to software engineering'
 WHERE id = 1;
+SELECT * FROM programs
+WHERE id=1;
 /* Update 5*/
