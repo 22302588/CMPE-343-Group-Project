@@ -1,13 +1,13 @@
 -- Show prerequisite relationships between courses with course details
 SELECT * FROM prerequisites
 JOIN courses ON courses.id = prerequisites.dependon_id
-JOIN courses c2 ON c2.id = prerequisites.course_id
+JOIN courses c2 ON c2.id = prerequisites.course_id;
 
 -- List each course with its total modules and total lessons
 SELECT
     courses.id,
     courses.title, 
-    Count(DISTINCT modules.title) as total_modules, 
+    COUNT(DISTINCT modules.title) as total_modules, 
     COUNT(lessons.title) as total_lessons
 FROM courses 
 JOIN modules ON modules.course_id = courses.id 
@@ -36,7 +36,7 @@ SELECT courses.title course, c2.title dependents FROM courses
 JOIN prerequisites 
 ON prerequisites.dependon_id = courses.id
 JOIN courses c2 ON c2.id = prerequisites.course_id
-WHERE courses.id = 1
+WHERE courses.id = 1;
 
 -- Find modules that contain more than 2 lessons (using HAVING clause)
 SELECT 
@@ -56,7 +56,7 @@ FROM courses
 JOIN modules ON modules.course_id = courses.id
 JOIN lessons ON lessons.module_id = modules.id
 GROUP BY courses.title
-ORDER BY total_lessons LIMIT 1
+ORDER BY total_lessons LIMIT 1;
 
 -- Show full path of lesson: Course → Module → Lesson using string concatenation
 SELECT courses.title || ' -> ' || modules.title || ' -> ' || lessons.title lesson_path

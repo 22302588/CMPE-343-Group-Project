@@ -14,27 +14,18 @@ JOIN universities
   ON departments.university_id = universities.id
 WHERE universities.address LIKE '%United%';
 
-
 -- Count how many programs each department offers
 SELECT departments.name, departments.id, COUNT(programs.id) AS programs_department
 From  departments
 JOIN programs ON programs.department_id = departments.id
-GROUP BY departments.name, departments.id
-
+GROUP BY departments.name, departments.id;
 
 -- Find universities that have exactly 2 departments
 SELECT universities.id 
 FROM universities 
 JOIN departments ON universities.id= departments.university_id 
 GROUP BY universities.id
-HAVING count(departments.id)=2
-
--- Find programs that have no students enrolled (NOTE: This query has syntax errors and needs fixing)
-SELECT programs.id 
-FROM programs
-LEFT JOIN programs ON students.id = programs.student_id 
-WHERE "students"= NULL
-
+HAVING count(departments.id)=2;
 
 -- Find the department with the highest number of programs
 SELECT departments.id , departments.name, COUNT(programs.id) AS program_count
