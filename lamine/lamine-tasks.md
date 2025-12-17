@@ -46,7 +46,7 @@
 
 #### Display Data
 
-- [] SELECT on all four tables
+- [x] SELECT on all four tables
 - [x] List each course with its total modules and total lessons (multiple JOINs + GROUP BY).
 - [x] Retrieve all lessons in order for a given course (JOIN + ORDER BY).
 - [x] Find all courses that have no prerequisites (LEFT JOIN + IS NULL).
